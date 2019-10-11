@@ -1,0 +1,9 @@
+{
+    "author": "starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)",
+    "dependencies": {},
+    "description": "Random number generation (RNG) utilities for Unity.",
+    "displayName": "Eflatun.RandomUtils",
+    "license": "MIT",
+    "name": "com.eflatun.randomutils",
+    "version": "0.0.1"
+}
