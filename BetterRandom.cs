@@ -15,15 +15,22 @@ namespace Eflatun.RandomUtils
 
         public int Seed { get; private set; }
 
-        public IntMethods Int { get; private set; }
-        public DoubleMethods Double { get; private set; }
-        public FloatMethods Float { get; private set; }
-        public Vector2Methods Vector2 { get; private set; }
-        public Vector3Methods Vector3 { get; private set; }
-        public AngleMethods Angle { get; private set; }
+        public IntMethods Int { get; }
+        public DoubleMethods Double { get; }
+        public FloatMethods Float { get; }
+        public Vector2Methods Vector2 { get; }
+        public Vector3Methods Vector3 { get; }
+        public AngleMethods Angle { get; }
 
         /// <summary>
-        /// Initializes the BetterRandom with the <see cref="seed"/>.
+        /// Initializes a new BetterRandom with <see cref="System.Environment.TickCount"/> as the seed.
+        /// </summary>
+        public BetterRandom() : this(System.Environment.TickCount)
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new BetterRandom with the <see cref="seed"/>.
         /// </summary>
         public BetterRandom(int seed)
         {
