@@ -7,6 +7,6 @@
   "displayName": "Eflatun.RandomUtils",
   "license": "MIT",
   "name": "com.eflatun.randomutils",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "type": "library"
 }
